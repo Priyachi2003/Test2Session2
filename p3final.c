@@ -13,17 +13,22 @@ int is_prime(int n)
     {
       if(n%i==0)
         return 0;
-      else
+      }
         return 1;
     }
-}
+  
+
 void output(int n,int isp)
 {
-  if(isp==0)
-    printf("number is not prime\n");
+  
+    if(isp==0)
+    
+    printf("%d is not prime\n",n);
+    
   else
-    printf("number is prime\n");
-}
+  printf("%d is prime\n",n);
+
+  }
 int main()
 {
   int n;
