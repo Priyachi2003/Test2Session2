@@ -28,7 +28,7 @@ void out_put(int n, int a[n])
 }
 int main()
 {
-  int n
+  int n;
  n=input_array_size();
  int a[n];
  erotosthenes_sieve( n, a[n]);
